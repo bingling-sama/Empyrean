@@ -12,4 +12,8 @@ public class ItemRegistry {
     public static RegistryObject<Item> whaleMitten = ITEMS.register("whale_mitten", () -> {
         return new WhaleMitten();
     });
+
+    public static RegistryObject<Item> whaleBone = ITEMS.register("whale_bone", () -> {
+        return new WhaleBone();
+    })
 }
